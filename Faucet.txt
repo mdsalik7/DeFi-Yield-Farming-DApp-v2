@@ -1,0 +1,3 @@
+kETH Faucet: https://gitter.im/kovan-testnet/faucet
+
+Dai Faucet: https://kovan.etherscan.io/address/0x3eb9d32b30e548b9af9ddd4d6a4ffb7438f1ae0a#code
