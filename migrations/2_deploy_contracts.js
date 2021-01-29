@@ -8,7 +8,7 @@ const HodlToken = artifacts.require("HodlToken")
 https://kovan.etherscan.io/token/0x4f96fe3b7a6cf9725f59d353f723c1bdb64ca6aa
 //
 
-const daiAddress = "0x4F96Fe3b7A6Cf9725f59d353F723c1bDb64CA6Aa"
+daiAddress = "0x4F96Fe3b7A6Cf9725f59d353F723c1bDb64CA6Aa";
 
 module.exports = async (deployer, network, accounts) => {
   //Deploy Hodl Token
