@@ -1,5 +1,4 @@
 const { assert } = require('chai')
-const { Contract } = require('ethers')
 const { default: Web3 } = require('web3')
 
 const MockDai = artifacts.require('MockDai')
@@ -86,7 +85,7 @@ contract('HodlFarmTest', ([alice, bob]) => {
 
             //check that staking balance is correct
             result = await hodlFarm.stakingBalance(alice)
-            assert.equal(result.toString(), tokens('5000'), 'staking balance fo alice is not correct')
+            assert.equal(result.toString(), tokens('5000'), 'staking balance for alice is not correct')
 
             
 
